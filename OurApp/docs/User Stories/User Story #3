@@ -1,0 +1,19 @@
+User Story #3 - Browse the Feed (Main Use Case)
+
+Goal:
+As a signed in user (refer to User Story #2) I want to be able to browse my feed so that I can 
+easily view gaming content that interests me. 
+
+Requirements:
+Content should be split into sections by content type (streams, articles, esports events/updates, 
+upcoming games, patches, etc), perhaps different tabs refer to different content types. The user should 
+be able to scroll through their feed and the items that are most similar to their interests which they enter 
+(see User Story #1 and User Story #5) should aggregate at the top. If a user has no preferences or games they 
+are specifically interested in then the website should display information about the most popular content. 
+There should be thumbnails for videos or images that will play the video or open the image when clicked. 
+Articles can be clickable text. If an image or link were to not load properly then that particular item should 
+not be shown or replaced with a stock message or image. If clicking a particular link is unable to work then it 
+should redirect to an error page. The user should be able to like items in their feed which that then show up 
+when a friend (see User Story #4) views their profile. 
+
+

@@ -1,0 +1,14 @@
+User Story #2 - Sign In
+
+Goal:
+User wants to sign in to an existing account on the web app.
+
+Requirements:
+Upon visiting the site, the user sees a sign in page. They are given the option to sign in via 
+Steam, Google, Twitter, or Facebook, or to enter their own credentials (username and password)
+(refer to User Story #1). If the user does not have an account that matches the chosen credentials, 
+they will see an error telling them so that recommends they go to the linked sign up page. There 
+will also be an option for the user to recover/reset their password if they created their own for 
+the app rather than connecting it to an existing account. If the credentials match an existing account, 
+they will be logged in. They will see their displayed name (and maybe icon) which they can click to view 
+their own profile and their feed (see User Story #3).

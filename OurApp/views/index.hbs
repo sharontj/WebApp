@@ -1,0 +1,52 @@
+<h1 class="header">GameHub</h1>
+<p class="rest">Welcome to GameHub</p>
+
+
+
+
+<form method="POST" action="/" class="rest">
+    Please enter the game name:
+   <input type="text" id="bar" name="bar" />
+   <button type="submit">Send</button>
+</form>
+
+<br />
+
+<p class="rest">{{searchresult}}</p>
+
+<br />
+<table width="600" border="1" cellspacing="0" class="rest" align="center">
+    <thead>
+    <tr>
+        <th>Game</th>
+        <th>Original Price</th>
+        <th>Final Price</th>
+        <th>Discount</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#users}}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{oriprice}}</td>
+            <td>{{fprice}}</td>
+            <td>{{discount}}</td>
+        </tr>
+    {{/users}}
+    </tbody>
+
+    <tbody id="tbMain"></tbody>
+</table>
+
+
+
+<style>
+.header {
+  text-align: center;
+  border: solid;
+}
+
+.rest {
+	text-align: center;
+}
+</style>

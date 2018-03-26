@@ -1,0 +1,16 @@
+User Story #1 - Sign Up
+
+Goal:
+User wants to create an account upon visiting the web app for the first time.
+
+Requirements:
+When the user goes to the web app for the first time, they are greeted with a minimal sign up page. 
+They can sign up with their Steam account, if they have one, or if not, their Google, Twitter, or 
+Facebook account, or they can just enter an email and password. Upon account authentication, they 
+will be prompted to fill in some profile information in a form. The required fields will include things 
+such as name, display name, preferred games, genres, esports teams, professional players, Twitch streamers,
+Youtubers, etc. Once they complete the form their profile will be created and their feed updated to 
+reflect their entered preferences. The user can view their profile by clicking their name and/or icon in 
+the app. The profile will show the user’s gaming interests/preferences, current games, gaming achievements, 
+followed/subscribed streamers, recently liked "posts" (refer to User Story #3).
+

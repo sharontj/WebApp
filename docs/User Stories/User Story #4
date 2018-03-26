@@ -1,0 +1,19 @@
+User Story #4 - Add Friends
+
+Goal:
+As a signed in user, I want to find and add friends so that I can see what games they’re playing 
+and what gaming content they’re interested in.
+
+Requirements:
+When the user signs in (refer to User Story #2), they will be able to view their friend list by 
+clicking the appropriate tab/button in the client. In addition to viewing current friends, the user 
+should be able to search for other users by username or full name. If any matches are found, they 
+can send an add friend request, if not, they will see a message saying no result found. If the other 
+user accepts the request, the two users will be friends with usernames appearing in each other’s friend list. 
+For any friend in the friend list, the user should be able to see what that friend is playing if 
+their friend is logged in with a steam account. The user should also be able to view their friends 
+profile which will show gaming interests/achievements and liked posts. Additionally, this user should be 
+able to message (given that this capability can be implemented in time) online friends on their friends list.
+
+
+

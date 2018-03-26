@@ -1,0 +1,22 @@
+Assignment 1 - Proposal
+
+Idea #1: Gaming Profile Web App
+
+An web app that acts as an aggregate of various aspects of a user's gaming interests. This would use Steam, 
+Twitch, ESPN, and Youtube APIs to gather information and recommend content related to current games the user is playing, 
+preferred genres, eSports events, streamers and youtubers making relevant content based on the user's interests. 
+Would display both user information/achievements as well as recommendations for new content. Customizable, and would allow 
+the user to enter certain preferences about displayed and recommended content. User would login with their 
+steam account and make a profile upon first authentication. The use of a database would be necessary to store 
+user information/preferences.
+
+
+Idea #2: How to Spend Your Money
+
+A web app that allows the user to enter a price/price range and then suggest events, restaurants, locations, 
+or popular items within the entered price range. This would make user of various APIs, such as EventBrite, Yelp, 
+BandsInTown, TicketMaster, Eventful, Facebook Event, Google Calendar, etc. The user could login with either 
+Facebook or Gmail (ideally Gmail so we could have access to their Google calendar if they allow it). The user 
+could also enter certain preferences to help with recommendations, which we could then use MangoDB to store. 
+
+

@@ -1,0 +1,19 @@
+User Story #5 - Update User Preferences
+
+Goal: 
+As a signed in user (see User Story #2) I should be able to update my preferences, like adding my favorite non-Steam games
+or removing games entered from my Steam account that I don’t care about, so that I can better tailor my 
+feed to have items important to me and so that I can control what is displayed on my profile.
+
+Requirements:
+If a user wants to update their preferences so as to improve the content recommended to them by the app, they can 
+edit their preferences by clicking the settings button under their displayed name. The user should also be able to 
+update/edit any entered preferences entered when they originally signed-up (including adding and deleting preferences). 
+If a user has no preferences or games they are specifically interested in then the website should display information about
+the most popular content. If a user connected their Steam account to their profile, games from Steam should be added based 
+on a user’s favorites, most played, recently played, wishlist and more. The user would also be able to edit which information 
+from Steam they care about. In order to apply the updated preferences, the user should hit the save before before exiting the
+preferences page. If the connection gets interrupted while editing this page and the user has not yet clicked save, the 
+preferences will not be updated.
+
+
